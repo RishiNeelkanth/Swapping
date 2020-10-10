@@ -12,9 +12,9 @@ int main()
 {
     long long int n,m;
     cin>>n>>m;
-    cout<<"elements to be swapped are "<<n<<"and"<<m;
+    cout<<"elements to be swapped are "<<n<<"and"<<m<<endl;
     swap(&n,&m);
     cout<<n<<endl<<m;
-    cout<<"element after swapping are"<<n<<"and"<<m;
+    cout<<"element after swapping are"<<n<<"and"<<m<<endl;
     return 0;
 }
